@@ -1,10 +1,11 @@
 package TwoPointer;
+
 // Q..Convert characters to lowercase so 'A' and 'a' are treated the same
 // input : s = "A man, a plan, a canal: Panama"
 // output :true
 public class p2 {
     public static void main(String[] args) {
-        String str = "madam";
+        String str = "A man, a plan, a canal: Panama";
         System.out.println(paliDrone(str));
     }
 
@@ -12,20 +13,26 @@ public class p2 {
         int n = str.length();
         int l = 0;
         int r = n - 1;
-        while (l <= r) {
-            Character.toLowerCase(l);// Convert characters to lowercase so 'A' and 'a' are treated the same
-            Character.toLowerCase(r);// Convert characters to lowercase so 'A' and 'a' are treated the same
-            if (Character.isLetterOrDigit(l)) {
-                // Skip characters that are not letters or digits (ignore spaces, commas,
+        while (l < r) {
+            if (!Character.isLetterOrDigit(str.charAt(l))) {
+                // Skip characters that are not(!) letters or digits means(ignore spaces, commas,
                 // symbols)
                 l++;
+                continue;
             }
-            if (Character.isLetterOrDigit(r)) {
-                // Skip characters that are not letters or digits (ignore spaces, commas,
+            if (!Character.isLetterOrDigit(str.charAt(r))) {
+                // Skip characters that are not(!) letters or digits means(ignore spaces, commas,
                 // symbols)
                 r--;
+                continue;
             }
-            if (str.charAt(l) != str.charAt(r)) {
+
+            char left = Character.toLowerCase(str.charAt(l));// Convert characters to lowercase so 'A' and 'a' are
+                                                             // treated the same
+            char right = Character.toLowerCase(str.charAt(r));// Convert characters to lowercase so 'A' and 'a' are
+                                                              // treated the same
+
+            if (left != right) {
                 return false;
             }
             l++;
