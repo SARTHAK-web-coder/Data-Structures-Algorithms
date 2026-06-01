@@ -7,6 +7,7 @@ Follow exactly this order:
 4️⃣ Move Zeroes
 
 5️⃣ 3Sum
+6. Max dis between a pair of value(1855)
 6️⃣ Container With Most Water
 7️⃣ Remove Duplicates II
 8️⃣ Sort Colors

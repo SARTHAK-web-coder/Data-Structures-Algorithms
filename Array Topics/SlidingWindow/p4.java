@@ -37,6 +37,5 @@ public class p4 {
             max = Math.max(max, c);
         }
         return max;
-
     }
 }
