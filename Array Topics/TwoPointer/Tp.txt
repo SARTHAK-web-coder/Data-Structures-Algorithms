@@ -10,7 +10,7 @@ Follow exactly this order:
 6. Max dis between a pair of value(1855)
 6️⃣ Container With Most Water
 7️⃣ Remove Duplicates II
-8️⃣ Sort Colors
+8 Sort Colors
 9️⃣ Subarray Product < K
 🔟 3Sum Closest
 11️⃣ Partition Labels

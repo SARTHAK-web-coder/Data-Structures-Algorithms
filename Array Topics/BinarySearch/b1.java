@@ -1,13 +1,13 @@
 public class b1 {
     public static void main(String[] args) {
-        int nums[] = { 1,3,5,6 };
+        int nums[] = { 1, 3, 5, 6 };
         int target = 2;
         int x = searchInsert(nums, target);
         System.out.println(x);
     }
     // Example 1:
     // Input: nums = [1,3,5,6], target = 5
-    // Output: 2 (index no. have to put)
+    // Output: 2 (index no. have to put)j
 
     // Example 2:
     // Input: nums = [1,3,5,6], target = 2
