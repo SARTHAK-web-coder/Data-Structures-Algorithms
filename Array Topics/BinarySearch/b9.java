@@ -30,7 +30,7 @@ public class b9 {
     }
 
     public static List<Integer> findClosestElements(int[] arr, int k, int x) {
-        // 658. Find K Closest Elements
+        // 658. Find K Closest Elements .
         int n = arr.length;
         int left = 0;
         int right = n - k;
