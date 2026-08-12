@@ -1,0 +1,20 @@
+! Your Proper Solving Order
+
+Level	       #	       Problem	                                                    Main Skill
+🟢 Easy	    1876	  Substrings of Size Three with Distinct Characters	             Fixed window + uniqueness
+🟢 Easy	     643	  Maximum Average Subarray I	                                 Fixed window
+🟢 Easy	    1984	  Minimum Difference Between Highest and Lowest of K Scores      Sorting + window
+🟢 Easy	    2269	  Find the K-Beauty of a Number	                                 Fixed window
+🟢 Easy	    2379	  Minimum Recolors to Get K Consecutive Black Blocks	         Fixed window + counting
+🟡 Medium	 209	  Minimum Size Subarray Sum	                                     Variable window
+🟡 Medium	   3	  Longest Substring Without Repeating Characters	             Variable window + frequency
+🟡 Medium	1343	  Number of Sub-arrays of Size K...	                             Fixed window
+🟡 Medium	1052	  Grumpy Bookstore Owner	                                     Window optimization
+🟡 Medium	 438	  Find All Anagrams in a String	                                 Frequency window
+🟡 Medium	 567	  Permutation in String	                                         Frequency + fixed window
+🟡 Medium	 424	  Longest Repeating Character Replacement	                     Variable window + frequency
+🟡 Medium	 904	  Fruit Into Baskets	                                         At most 2 distinct
+🟡 Medium	1004	  Max Consecutive Ones III	                                     At most K violations
+🔴 Hard	      76	  Minimum Window Substring	                                     Minimum valid window
+🔴 Hard  	 992	  Subarrays with K Different Integers	                         Exactly K distinct
+🔴 Hard	     239	  Sliding Window Maximum	                                     Monotonic deque
