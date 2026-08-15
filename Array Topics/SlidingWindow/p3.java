@@ -8,7 +8,7 @@
 // Therefore, we return 3.
 public class p3 {
     public static void main(String[] args) {
-        String blocks = "WBBWWBBWBW`";
+        String blocks = "WBBWWBBWBW";
         int k = 7;
         System.out.println(minimumRecolors(blocks, k));
     }

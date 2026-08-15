@@ -12,8 +12,8 @@ public class p1 {
         int k = 4;
         int x = 20;
         System.out.println(countSubarrays(arr, k, x));
-    }
-
+    }                                                                                                                                                                                                 
+    
     public static int countSubarrays(int[] arr, int k, int x) {
         int n = arr.length;
         int count = 0;

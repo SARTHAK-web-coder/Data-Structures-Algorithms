@@ -1,7 +1,7 @@
 package Sorting_Method;
 
 import java.util.Arrays;
-
+// for short list 
 public class SelectionSort {
     public static void main(String[] args) {
         int arr[] = { 3, 1, 5, 4, 2 };
