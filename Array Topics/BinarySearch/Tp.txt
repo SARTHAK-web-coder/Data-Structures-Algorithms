@@ -1,13 +1,46 @@
-1.#704 Binary Search
-2.#35 Search Insert Position
-3.#367 Valid Perfect Square
-4.#374 Guess Number Higher or Lower
-5.#278 First Bad Version
-6.#34 Find First and Last Position
-7.#540 Single Element in a Sorted Array
-8.#33 Search in Rotated Sorted Array
-9.#153 Find Minimum in Rotated Sorted Array
-10.#875 Koko Eating Bananas
-11.#1011 Capacity To Ship Packages Within D Days
-12.#410 Split Array Largest Sum
-13.#4 Median of Two Sorted Arrays
+📈 Binary Search — Recommended Solving Progression
+
+
+🟢 Level 1 — Basic Binary Search
+Order	LeetCode	Problem
+1	#704	Binary Search
+2	#35	Search Insert Position
+3	#374	Guess Number Higher or Lower
+4	#278	First Bad Version
+
+
+🟢 Level 2 — Binary Search on Range / Math
+Order	LeetCode	Problem
+5	#69	Sqrt(x)
+6	#441	Arranging Coins
+7	#34	Find First and Last Position of Element in Sorted Array
+
+
+🟡 Level 3 — Modified Binary Search
+Order	LeetCode	Problem
+8	#33	Search in Rotated Sorted Array
+9	#153	Find Minimum in Rotated Sorted Array
+10	#162	Find Peak Element
+11	#540	Single Element in a Sorted Array
+12	#81	Search in Rotated Sorted Array II
+
+
+🟡 Level 4 — Binary Search + Other Techniques
+Order	LeetCode	Problem
+13	#658	Find K Closest Elements
+14	#981	Time Based Key-Value Store
+
+
+🟡 Level 5 — Binary Search on Answer ⭐
+This is very important for interviews.
+Order	LeetCode	Problem
+15	#1011	Capacity To Ship Packages Within D Days
+16	#875	Koko Eating Bananas
+
+
+🔴 Level 6 — Advanced Binary Search
+Order	LeetCode	Problem
+17	#4	Median of Two Sorted Arrays
+18	#410	Split Array Largest Sum
+19	#1095	Find in Mountain Array
+20	#719	Find K-th Smallest Pair Distance
