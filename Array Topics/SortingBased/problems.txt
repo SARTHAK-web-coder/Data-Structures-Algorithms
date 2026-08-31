@@ -1,0 +1,24 @@
+📈 Your Sorting Progression
+Don't treat all 19 equally. 
+This is the order to solve them.
+
+Order	            LC	  Problem	                                              Level
+1	               905	  Sort Array By Parity	                                  Easy
+2	               1051	  Height Checker	                                      Easy
+3	               349	  Intersection of Two Arrays	                          Easy
+4	               350	  Intersection of Two Arrays II	                          Easy
+5	               561	  Array Partition	                                      Easy
+6	               977	  Squares of a Sorted Array	                              Bridge
+7	               75	  Sort Colors	                                          Medium
+8	               1122	  Relative Sort Array	                                  Medium
+9	               215	  Kth Largest Element in an Array	                      Medium
+10	               179	  Largest Number	                                      Medium
+11	               451	  Sort Characters By Frequency	                          Medium
+12	               969	  Pancake Sorting	                                      Medium
+13	               912	  Sort an Array	                                          Medium
+14	               56	  Merge Intervals	                                      Medium
+15	               435	  Non-overlapping Intervals	                              Medium
+16	               881	  Boats to Save People	                                  Medium
+17	               164	  Maximum Gap	                                          Hard
+18	               493	  Reverse Pairs	                                          Hard
+19	               315	  Count of Smaller Numbers After Self	                  Hard               
