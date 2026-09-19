@@ -1,4 +1,3 @@
-package TwoPointer;
 
 public class p3 {
     // Sample Input

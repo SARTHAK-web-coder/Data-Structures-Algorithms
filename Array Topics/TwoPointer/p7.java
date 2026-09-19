@@ -1,4 +1,4 @@
-package TwoPointer;
+
 
 // Max dis between a pair of value(1855)
 public class p7 {

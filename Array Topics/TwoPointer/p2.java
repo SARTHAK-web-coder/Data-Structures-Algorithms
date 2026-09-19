@@ -1,5 +1,3 @@
-package TwoPointer;
-
 // Q..Convert characters to lowercase so 'A' and 'a' are treated the same
 // input : s = "A man, a plan, a canal: Panama"
 // output :true

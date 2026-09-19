@@ -1,3 +1,4 @@
+
 public class p3o3 {
     // The k-beauty of an integer num is defined as the number of substrings of num
     // when it is read as a string that meet the following conditions:

@@ -1,4 +1,3 @@
-package TwoPointer;
 // input :
 // numbers = [2,7,11,15]
 // target = 9

@@ -7,7 +7,6 @@
 // height = [1,8,6,2,5,4,8,3,7]
 // Sample Output
 // 49
-package TwoPointer;
 
 public class p5 {
     public static void main(String[] args) {
