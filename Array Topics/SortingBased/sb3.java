@@ -1,6 +1,5 @@
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
+import java.util.HashSet;
 
 // Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must be unique and you may return the result in any order.
 
@@ -24,28 +23,30 @@ public class sb3 {
         // 349. Intersection of Two Arrays
         Arrays.sort(nums1);
         Arrays.sort(nums2);
-        List<Integer> list = new ArrayList<>();
-        int i = 0;
-        int j = 0;
-        while (i < nums1.length && j < nums2.length) {
-            if (nums1[i] == nums2[j]) {
-                if (list.isEmpty() || !(list.get(list.size() - 1).equals(nums1[i]))) {
-                    list.add(nums1[i]);
-                }
-                i++;
-                j++;
-            } else if (nums1[i] < nums2[j]) {
-                i++;
-            } else {
-                j++;
+        HashSet <Integer> set = new HashSet<>();
+        int n = nums1.length;
+        int m = nums2.length;
+        int l=0;
+        int r=0;
+        while(l<n && r<m){
+            if(nums1[l]>nums2[r]){
+                r++;
+            }else if(nums1[l]<nums2[r]){
+                l++;
+            }
+            else{
+                set.add(nums1[l]);
+                l++;
+                r++;
             }
         }
-        int ans[] = new int[list.size()];
-        int k = 0;
-        for (int ele : list) {
-            ans[k++] = ele;
+        int arr[]=new int[set.size()];
+        int i=0;
+        for(int val : set){
+            arr[i++]=val;
         }
-        return ans;
+        return arr;
+
     }
 
 }
